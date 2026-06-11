@@ -1,0 +1,14 @@
+h1 {
+    color:#51ff51;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+h2 {
+    border-bottom-style: groove;
+}
+
+.iti{ 
+    background: linear-gradient(to left,rgb(255, 100, 100),#ffffff)}
+
+.ni {
+    background: linear-gradient(to left,rgb(100, 100, 255),#ffffff)}

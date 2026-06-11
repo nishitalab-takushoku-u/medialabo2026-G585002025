@@ -1,0 +1,20 @@
+h3 {
+    background: linear-gradient(to right,rgb(131, 255, 131),#ffffff)
+}
+
+h1 {
+    color: white;
+    text-shadow: rgb(0, 155, 0) 10px 0 10px;
+}
+
+
+.manabi {
+    border-bottom-style: groove;
+}
+
+.iti {
+    background: linear-gradient(to right,#ffff37,#ffffff)
+}
+
+.ni {
+    background: linear-gradient(to right,#faa458,#ffffff)}
