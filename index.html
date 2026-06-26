@@ -13,6 +13,8 @@
     <p></p>
     <p>プロジェクト課題で作成したページ:<a href="project.html">project.html</a></p>
     <h2 class="manabi">数当てゲーム</h2>
+    <p>このゲームは、プログラムが1〜10からランダムに選んだ答えを、ユーザーが3回以内の予想で当てるものである。実際の動きでは、HTMLのフォーム要素であるinputとbuttonを使い、JavaScriptの.addEventListenerを用いてクリックをトリガーにして、関数hantei()が動き出す仕組みを作った。関数内では、DOMのdocument.querySelectorを用いて入力値である.valueの部分を取り出して、if文による条件分岐で正解、もっと大きい、もっと小さいなどの判定結果を条件に応じて切り替え、.textContentによってページ上のテキストをリアルタイムに書き換える一連の動きのあるページを完成させた。</p>
+    <p>数当てゲーム：<a href="kazuate.html">kazuate.html</a></p></p>
     <p></p>
       <h2 class="manabi">各授業回の学習事項</h2>
     <div class="iti">
@@ -28,10 +30,12 @@
     <div class="san">
       <h3>第3回 JavaScript の基本</h3>
       <p>第3回ではWebページに動的な変化を与えるプログラミング言語JavaScriptの基礎と外部ファイルとしてHTMLへ組み込む時のルールについて学んだ。Javaはコンパイル言語、JavaScriptはインタプリタ言語であり、コンパイルをするタイミングなどさまざまな違いがある。JavaScriptは記述ミスがあったとしてもプログラムが停止せず、NaNやundefinedといった値を返してそのまま処理が進んでしまうことがあるためJavaよりミスに気づきにくい。こういったミスを発見するために例外で停止やブレークポイントを使いこなす必要がある。またfor文をJavaScript流にすっきりまとめたfor-of構文や複数のデータをひとまとめにして管理するオブジェクトを学んだ。今後のプロジェクト課題に役立てていきたいと思う。</p>
-      <p>演習の成果:<a href="practice-js/obj-practice.html" target="_blank">演習3-6: オブジェクトの参照</a></p>
+      <p>演習の成果:<a href="practice-js/obj-practice.html" target="_blank">演習3-6:オブジェクトの参照</a></p>
     </div>
     <div class="yon">
       <h3>第4回 DOM と JavaScript</h3>
+      <p>第4回では、JavaScriptを用いてユーザーの操作に応じた動きのあるWebページの作り方を学習した。具体的には、HTMLのフォーム要素であるinputやbuttonを配置し、id属性やname属性を設定して操作する方法を学んだ。また、ボタンのクリックなどをきっかけとするイベント処理の構文を学び、.addEventListenerで丸括弧をつけずに関数名を登録できる方法やルールを理解した。さらに、DOMのdocument.querySelectorを用いて要素オブジェクトをとりだして、.valueを使った入力された値の取り出しや、.textContentによるその場で画面の情報を書き換える方法も学ぶことができた。また、意図通り動かない場合にインスペクタのeventボタンやデバッガで原因を特定する手法も学ぶことができ、思ったように動かない場合でも対処できるようになった</p>
+      <p>演習の成果:<a href="practice-eventdom/tashizan.html" target="_blank">演習4-10:足し算ページ</a></p>
     </div>
       <h3>第5回 イベント処理</h3>
   </body>
